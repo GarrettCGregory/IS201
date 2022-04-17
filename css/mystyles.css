@@ -1,0 +1,72 @@
+/* Garrett Gregory 04/16/2022 */
+a:hover{
+    text-decoration:
+      font-weight: bold;
+      font-size: larger;
+  }
+
+  h2{
+    background-color: whitesmoke;
+    size: 30px;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+h1{
+  margin: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.homebg{
+    background-image: url('../images/whitewave.jpg'); 
+    width: 100%;
+    height: 100%;
+    
+}
+
+.homebg2{
+    background-image: url('../images/whitecirclebg.webp'); 
+    background-size: 1000px;
+    background-position: bottom center;
+}
+
+.title{
+   position: relative;
+   width: 100%;
+}
+
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  width: 100%;
+}
+
+.backgimg{
+  background-image: url(../Images/Assets/MtFujiSakura.webp);
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid violet;
+  padding: 10px;
+}
